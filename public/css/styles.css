@@ -1,0 +1,65 @@
+header{ background-color: #EAC926;}
+
+
+body{    background-color:#ebebeb;      
+    font-family:'Roboto', sans-serif;
+    font-size: 12px;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+footer {text-align: center;
+        background-color:white;
+        margin: 10px;
+      }
+      
+ .camion{
+        text-align: left;
+        font-size: 18px;
+        margin: 10px;
+        color:#39b54a ;
+      }
+
+.Titulares{
+    font-size: 24px;
+}
+.precios{
+    font-size: 18px;
+    
+}
+.descuentos{
+    font-size: 16px;
+    color : #39b54a; 
+}
+.descripcion{
+    font-size: 16px;
+}
+.burger-menu {
+    text-align: center;
+    font-size: 2em;
+}
+.burger-menu i {
+    background-color: #1259c3;
+    color: #ebebeb;
+    padding: 6px;
+    border-radius:3px;
+}
+
+
+footer#icono i{
+color: #1259c3;
+font-size: 2em;
+}
+.BarraBuscador{
+    text-align: center
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-right: 4px
+  }
+  .listas{
+      list-style-type: none;
+      text-align: left;
+  }
