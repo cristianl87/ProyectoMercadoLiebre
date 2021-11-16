@@ -12,6 +12,8 @@ body{    background-color:#ebebeb;
 footer {text-align: center;
         background-color:white;
         margin: 10px;
+        padding-top: 15px
+        
       }
       
  .camion{
@@ -43,23 +45,420 @@ footer {text-align: center;
     background-color: #1259c3;
     color: #ebebeb;
     padding: 6px;
-    border-radius:3px;
+    border-radius:  5px;
+    margin-bottom: 5px;
 }
 
 
-footer#icono i{
+footer#icono i
+{
 color: #1259c3;
 font-size: 2em;
 }
-.BarraBuscador{
+.BarraBuscador
+{
     text-align: center
 }
-a{
+a
+{
     text-decoration: none;
     color: black;
     margin-right: 4px
-  }
-  .listas{
+}
+  .listas
+  {
       list-style-type: none;
       text-align: left;
   }
+
+  article
+  {
+    width:100%;
+    padding: 15px; 
+    background-color:#ffff  ;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 10px;
+    border-top: solid 1px #ebebeb;
+    
+    
+  }
+
+  *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+
+main{
+    width: 90%;
+    margin: auto;
+}
+p{
+    margin: 0
+}
+nav ul {
+    padding: 0;
+}
+
+
+@media (max-width: 360px){
+    h2.descripcion{
+        display: none;
+    }
+    ul.listas{
+        display: none;
+    }
+    .logo-buscador{
+        display: flex;
+        justify-content:center;
+        align-items: center; 
+        padding : 5px;
+        font-size: 10px;
+        flex-wrap: wrap;
+        
+    }
+    .BarraBuscador{
+        width: 100%;
+    }
+    .logo{
+        display: flex ;
+        align-content: center;
+        width: 120px;
+        flex-wrap: wrap;
+        
+    }
+    .BarraBuscador{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        flex-wrap: wrap;
+        
+    }
+}
+
+@media (min-width: 361px)
+{
+    
+      article{  box-shadow: 0px 0px 10px rgb(100, 100, 100); 
+    }
+       .hamburguesa{display: none
+      } 
+      .listas{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-between ;
+        align-items: center;
+        padding: 5px; 
+    }
+      
+
+        .listaIzquierda{
+            display: flex;
+            justify-content:flex-start ;
+            align-items: center;
+            padding: 5px;
+           
+        }
+        .listaDerecha{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 5px;
+          
+        }
+        nav ul{
+        margin-bottom: 0px;
+    
+        }
+        .main-nav{
+          
+            font-size: 12px;
+            flex-wrap: wrap;
+            padding: 10px;
+           
+         
+        }
+       
+        .logo-buscador{
+            display: flex;
+            justify-content:space-between;
+            align-items: center; 
+            padding : 10px;
+            font-size: 10px;
+            flex-wrap: wrap;
+            
+    
+        }
+       .logo{
+           width: 150px;
+           
+       }    
+       .titular{
+           font-size: 15px;
+       }  
+      
+ 
+ 
+ .contenedor{
+    
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-items:center;
+  align-content:center;
+  /*height:auto Este valor lo puedes omitir si la altura de tu componente esta definida*/
+}
+.articulo1{
+    height:370px;
+    width:250px;
+  }
+  .articulo2{
+    height: 370px;;
+    width:250px;
+  }
+  .articulo3{
+    height: 370px;;
+    width:250px;
+  }
+  .articulo4{
+    height: 370px;;
+    width:250px;
+    
+  }
+  .contenedor2{
+    display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-items:center;
+  align-content:center;
+    
+    
+  }
+  .articulo5{
+    height: 370px;;
+    width:250px;
+  }
+  .articulo6{
+    height: 370px;;
+    width:250px;
+  }
+  .articulo7{
+    height: 370px;;
+    width:250px;
+  }
+  .articulo8{
+    height: 370px;
+    width:250px;
+    
+  }
+    
+
+
+}
+
+
+    @media (min-width: 769px){
+      article{  box-shadow: 0px 0px 10px rgb(100, 100, 100); 
+     }
+      .hamburguesa{ 
+          display: none
+         }
+         
+    .listas{
+        display: flex;
+        justify-content:space-between ;
+        align-items: center;
+        padding: 5px;
+    
+    }
+    nav ul{
+    margin-bottom: 0px;
+
+    }
+    .main-nav{
+        
+        font-size: 15px;
+        flex-wrap: wrap;
+     
+    }
+    .logo-buscador{
+        display: flex;
+        justify-content:space-between;
+        align-items: center; 
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 18px;
+        flex-wrap: wrap;
+
+    }
+   .logo{
+       width: 250px;
+       height: auto;
+   }
+   .contenedor{
+    display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-items:center;
+  align-content:center;
+    
+    
+  }
+  .articulo1{
+    height: 330px;;
+    width:200px;
+  }
+  .articulo2{
+    height: 330px;;
+    width:200px;
+  }
+  .articulo3{
+    height: 330px;;
+    width:200px;
+  }
+  .articulo4{
+    height: 330px;;
+    width:200px;
+    
+  }
+  .contenedor2{
+    display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-items:center;
+  align-content:center;
+    
+    
+  }
+  .articulo5{
+    height: 330px;;
+    width:200px;
+  }
+  .articulo6{
+    height: 330px;;
+    width:200px;
+  }
+  .articulo7{
+    height: 330px;;
+    width:200px;
+  }
+  .articulo8{
+    height: 330px;;
+    width:200px;
+    
+  }
+ 
+
+  
+   
+}
+ 
+  
+   .Titulares{
+       padding:50px
+   }
+  
+   
+
+    .camion {
+        display: block;
+        font-size: 16px;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #39b54a;
+        background-color: #FFF;
+        border-radius: 50%;
+        position: relative;
+        right: 20px;
+        top: -15px;
+        margin-top: 0%;
+        }
+       .truck{
+
+        position: relative;
+           display: flex;
+           justify-content: flex-end;
+           
+       }
+
+    .precio-descuento {
+        display: flex;
+        justify-content:space-between;
+        align-content: flex-start;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        padding: 15px;
+
+    }    
+    .precio{
+        flex-grow: 3;
+        font-weight: bold;
+        font-size: medium;
+    }
+    .descuentos{
+        
+        flex-grow:7;
+    }
+    
+
+    
+    main.login {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:column ;
+        background-color: darkgrey;
+        width: 30vw;
+        box-shadow: 5px 10px 5px 3px rgba(0,0,0,0.75);
+        padding: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        justify-content:space-between;
+      }
+      input.nombre{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content:space-between;
+          flex-direction: column;
+
+
+         
+      }
+      input.contraseña{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content:space-between;
+      }
+      .register{
+          padding: 15px;
+         
+      }
+      form.registro {
+        display: block;
+        flex-wrap: wrap;
+        flex-direction: column;
+        background-color: darkgrey;
+        width: 50vw;
+        box-shadow: 5px 10px 5px 3px rgba(0,0,0,0.75);
+        margin: 40px;
+      }
+      .boton{
+          background-color: #1259c3;
+          color: white;
+      }
+ .boton-login{
+    background-color: #1259c3;
+    color: white;
+    width: 100%;
+
+ }
+ .formulario{
+     margin-bottom: 15px;
+ }
+
+   
