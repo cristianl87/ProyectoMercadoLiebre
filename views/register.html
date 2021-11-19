@@ -50,7 +50,7 @@ rel="stylesheet" />
     <div class="banner" >
         <img src="/images/img-home-banner.jpg" width="100%" alt="banner">
    </div>
-    <main>
+    <main class="">
         <form class="registro" action="/register" method="post">
             <div class="register">
                 <label>Nombre Completo </label>
@@ -69,27 +69,27 @@ rel="stylesheet" />
                 <input type="text" name="Domicilio">
             </div>
             <div class="register">
-                <label>Perfil de usuario </label>
+                <label class="perfil"><strong>Perfil de usuario </strong> </label>
             </div>
             <div>
-                <label for="">Comprador</label>
+                <label  for="">Comprador</label>
                 <input type="radio" name="perfil" value="compradorr">
                 <label>Vendedor</label>
                 <input type="radio" name="perfil" value="vendedor"> 
             </div>
             <div class="register">
-                <label>Categorias de interés </label>
-                  <div class="register">
+                <label class="categoria"><strong>Categorias de interés </strong> </label>
+                  <div class= "check-box">
                       <label for="">Electro</label>
-                     <input type="checkbox" name="categoria" >
+                     <input class="checkbox-categoria" type="checkbox" name="categoria" >
                      <label for="">Moda</label>
-                     <input type="checkbox" name="categoria" >
+                     <input class="checkbox-categoria" type="checkbox" name="categoria" >
                      <label for="">Hogar</label>
-                     <input type="checkbox" name="categoria" >
+                     <input class="checkbox-categoria" type="checkbox" name="categoria" >
                      <label for="">Jugueteria</label>
-                     <input type="checkbox" name="categoria" >
+                     <input class="checkbox-categoria" type="checkbox" name="categoria" >
                      <label for="">Vida sana</label>
-                     <input type="checkbox" name="categoria" >
+                     <input class="checkbox-categoria" type="checkbox" name="categoria" >
                  </div>
             </div>
             <div class="register">
@@ -102,7 +102,7 @@ rel="stylesheet" />
             </div>
             <div class="register">
                <button class="boton" type="submit">Enviar</button>
-               <button class="boton" type="reset">borrar</button>
+               <button class="boton-reset" type="reset">borrar</button>
             </div>
 
         </form>
@@ -111,6 +111,7 @@ rel="stylesheet" />
     
     
     <footer id="icono">
+        
         <section>
             <div class="footer-icon">
                 <i class="fas fa-credit-card"></i>
@@ -129,17 +130,19 @@ rel="stylesheet" />
     productos. Es un beneficio de Mercado Puntos.</p>
         </section> 
 
-         <section> 
+         <section > 
             <div class="footer-icon">
                 <i class="fas fa-user-shield"></i>
                 </div>
              <h3>Seguridad, de principio a fin </h3>
               <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
         porque estás siempre protegid@.</p></section> 
-         <section>
+        <div class="footer-contenedor">
+         <section class="copy">
              
-              <p>Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+              <p id="copy">Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
         </section>
+    </div>
     </footer>
     
 </body>

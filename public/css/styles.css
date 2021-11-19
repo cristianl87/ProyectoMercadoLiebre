@@ -281,9 +281,13 @@ nav ul {
     .main-nav{
         
         font-size: 15px;
-        flex-wrap: wrap;
+        flex-wrap: wrap;}
+
+    main{
+        margin-bottom: 30px;
+    }    
      
-    }
+    
     .logo-buscador{
         display: flex;
         justify-content:space-between;
@@ -310,19 +314,19 @@ nav ul {
   }
   .articulo1{
     height: 330px;;
-    width:200px;
+    width:230px;
   }
   .articulo2{
     height: 330px;;
-    width:200px;
+    width:230px;
   }
   .articulo3{
     height: 330px;;
-    width:200px;
+    width:230px;
   }
   .articulo4{
     height: 330px;;
-    width:200px;
+    width:230px;
     
   }
   .contenedor2{
@@ -337,23 +341,32 @@ nav ul {
   }
   .articulo5{
     height: 330px;;
-    width:200px;
+    width:230px;
   }
   .articulo6{
     height: 330px;;
-    width:200px;
+    width:230px;
   }
   .articulo7{
     height: 330px;;
-    width:200px;
+    width:230px;
   }
   .articulo8{
     height: 330px;;
-    width:200px;
+    width:230px;
     
   }
  
-
+.BarraBuscador{
+    padding: 7px;
+    border-radius: 5px;
+}
+.icono-buscador{
+    padding: 7px;
+    position: relative;
+    left: -10px;
+    border-radius: 5px;
+}
   
    
 }
@@ -412,19 +425,22 @@ nav ul {
         display: flex;
         flex-wrap: wrap;
         flex-direction:column ;
-        background-color: darkgrey;
-        width: 30vw;
-        box-shadow: 5px 10px 5px 3px rgba(0,0,0,0.75);
+        background-color:#D3D3D3 ;
+        width: 100%;
         padding: 30px;
-        margin-top: 30px;
-        margin-bottom: 30px;
         justify-content:space-between;
+        align-content: center;
       }
       input.nombre{
           display: flex;
           flex-wrap: wrap;
-          justify-content:space-between;
+          justify-content:center;
           flex-direction: column;
+          width: 100%;
+          padding: 5px;
+          border-radius:5px ;
+          align-content: center;
+
 
 
          
@@ -433,9 +449,12 @@ nav ul {
           display: flex;
           flex-wrap: wrap;
           justify-content:space-between;
+          width: 100%;
+          padding: 5px;
+          border-radius: 5px;
       }
       .register{
-          padding: 15px;
+          padding: 10px;
          
       }
       form.registro {
@@ -446,19 +465,114 @@ nav ul {
         width: 50vw;
         box-shadow: 5px 10px 5px 3px rgba(0,0,0,0.75);
         margin: 40px;
+        align-content: center;
       }
       .boton{
           background-color: #1259c3;
           color: white;
+          padding: 5px;
+          margin-right: 10px;
+          border-radius: 5px;
       }
+      .boton-reset{
+        background-color: #1259c3;
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .boton-reset:hover{
+        background-color: red;
+    }
+
+
  .boton-login{
     background-color: #1259c3;
     color: white;
     width: 100%;
+    padding: 5px;
+    border-radius: 5px;
 
+ }
+ .boton-login:hover{
+     background-color: #0022AA;
  }
  .formulario{
-     margin-bottom: 15px;
+     margin-bottom: 30px;
+     width: 45vw;
+     display: flex;
+     flex-wrap: wrap;
+     
  }
 
-   
+   div.check-box{
+       margin-top: 10px;
+       display: flex;
+       flex-direction:column;
+       justify-content: space-between; 
+       padding: 15px;
+   }
+   h2.descripcion{
+    opacity:0 ;
+       transition: opacity 450ms  ;
+
+   }
+   h2.descripcion:hover{
+   opacity:1 ;
+   }
+   article{
+       height: 330px;
+      width:200px ;
+       transition: all 1.5s;
+       box-shadow: none;
+    
+   }
+   article:hover{
+       height: 70vh;
+       width: 300px;
+       box-shadow: 0px 0px 10px rgb(100, 100, 100); 
+   }
+
+   .camion i{
+       transition: all 2s;
+      
+   }
+   .camion:hover i{
+    transform: rotate(-90deg);
+
+   }
+
+   footer{
+       display: flex;
+       justify-content: space-around;
+
+   }
+   .checkbox-categoria{
+       position: relative;
+       left: -17px;
+       top:-13px
+   }
+   .categoria{
+       position: relative;
+       bottom: -15px;
+       right: 5px;
+   }
+   .perfil{
+       position: relative;
+       right: 5px;
+   }
+   #copy{
+       position: absolute;
+       bottom: -35px;
+       left:-2px ;
+       padding-top: 30px;
+       padding-bottom: 20px;
+       
+   }
+   #icono{
+       position: relative;
+       padding-bottom: 30px;
+       padding-top: 20px;
+
+   }
+ 
+  
