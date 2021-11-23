@@ -6,9 +6,6 @@ const port =3030
 app.use(express.static(__dirname + '/public'));
 
 
-app.listen(3000, () =>{
-    console.log('servidor corriendo en el puerto 3000')
-})
 
 app.get('/', (req, res) => {res.sendFile(path.resolve(__dirname, './views/home.html'))
 })
@@ -17,4 +14,8 @@ app.get('/login', (req, res) => {res.sendFile(path.resolve(__dirname, './views/l
 })
 
 app.get('/register', (req, res) => {res.sendFile(path.resolve(__dirname, './views/register.html'))
+})
+
+app.listen(process.env.PORT || 4000, () =>{
+    console.log('servidor corriendo en el puerto 4000')
 })
