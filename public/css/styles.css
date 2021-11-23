@@ -358,16 +358,20 @@ nav ul {
   }
  
 .BarraBuscador{
-    padding: 7px;
+    padding: 10px;
     border-radius: 5px;
+    width: 450px;
 }
 .icono-buscador{
-    padding: 7px;
+    padding: 10px;
     position: relative;
     left: -10px;
     border-radius: 5px;
 }
-  
+  .icono-buscador:hover{
+      background-color: royalblue;
+      cursor: pointer;
+  }
    
 }
  
@@ -482,6 +486,7 @@ nav ul {
     }
     .boton-reset:hover{
         background-color: red;
+        cursor: pointer;
     }
 
 
@@ -495,6 +500,7 @@ nav ul {
  }
  .boton-login:hover{
      background-color: #0022AA;
+     cursor: pointer;
  }
  .formulario{
      margin-bottom: 30px;
@@ -530,6 +536,7 @@ nav ul {
        height: 70vh;
        width: 300px;
        box-shadow: 0px 0px 10px rgb(100, 100, 100); 
+       cursor: pointer;
    }
 
    .camion i{
