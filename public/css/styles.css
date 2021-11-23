@@ -135,6 +135,24 @@ nav ul {
         flex-wrap: wrap;
         
     }
+    .BarraBuscador{
+        padding: 5px;
+        border-radius: 5px;
+        width: 100px;
+        position: relative;
+        left: 10px;
+    }
+    .icono-buscador{
+        padding: 5px;
+        position: relative;
+        left: 108px;
+        top: -29px;
+        border-radius: 5px;
+    }
+      .icono-buscador:hover{
+          background-color: royalblue;
+          cursor: pointer;
+      }
 }
 
 @media (min-width: 361px)
@@ -254,7 +272,21 @@ nav ul {
     width:250px;
     
   }
-    
+  .BarraBuscador{
+    padding: 10px;
+    border-radius: 5px;
+    width: 250px;
+}
+.icono-buscador{
+    padding: 10px;
+    position: relative;
+    left: -10px;
+    border-radius: 5px;
+}
+  .icono-buscador:hover{
+      background-color: royalblue;
+      cursor: pointer;
+  }   
 
 
 }
